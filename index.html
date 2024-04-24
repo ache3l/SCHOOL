@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Aaron Chen and William Ao" />
+        <title>HUM CAT</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="img/logo.png" type="image/x-icon" />
+    </head>
+    <body>
+        <!-- NAV START -->
+        <nav class="bg-cool-400 shadow-lg sticky top-0 z-50">
+            <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between">
+                <div class="flex space-x-7">
+                <!-- Logo -->
+                <a href="index.html" class="flex items-center py-4 px-2">
+                    <img src="img/logo.png" alt="Logo" class="h-8 mr-2" />
+                    <span class="font-semibold text-cool-100 text-lg"
+                    >HUMANITIES PROJECT</span
+                    >
+                </a>
+                </div>
+                <!-- Primary Navbar items -->
+                <div class="hidden md:flex items-center space-x-1">
+                <!--<a href="/" class="py-4 px-2 text-slate-100 font-semibold">HOME</a>-->
+                <a href="timeline.html" class="py-4 px-2 text-cool-100 font-semibold"
+                    >TIMELINE & SIGNIFICANCE</a
+                >
+                <a href="Historical_Source.html" class="py-4 px-2 text-cool-100 font-semibold"
+                    >PRIMARY SOURCE</a
+                >
+                <a href="ASK_paragraph.html" class="py-4 px-2 text-cool-100 font-semibold"
+                    >ASK PARAGRAPH</a
+                >
+                <a
+                    href="bibliography.html"
+                    class="py-4 px-2 text-cool-100 font-semibold"
+                    >BIBLIOGRAPHY</a
+                >
+                </div>
+                <!-- Mobile menu button -->
+                <div class="md:hidden flex items-center">
+                <button class="outline-none mobile-menu-button">
+                    <svg
+                    class="w-6 h-6 text-slate-100 hover:text-slate-900"
+                    x-show="!showMenu"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    >
+                    <path d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+                </div>
+            </div>
+            </div>
+            <!-- Mobile menu -->
+            <div class="hidden mobile-menu">
+            <ul>
+                <li class="active">
+                <a
+                    href="/"
+                    class="block text-sm px-2 py-4 text-slate-100 hover:bg-gray-600 font-semibold"
+                    >HOME</a
+                >
+                </li>
+                <!-- Dropdown Toggle -->
+                <li>
+                <button
+                    class="text-slate-100 font-semibold w-full text-left flex items-center transition-colors duration-200 justify-between"
+                >
+                    <span class="mx-2">Industries</span>
+                </button>
+                <!-- Dropdown Menu -->
+                <ul class="bg-red-500">
+                    <li>
+                    <a
+                        href="contract_machining.html"
+                        class="block px-4 py-2 text-sm text-slate-100 hover:bg-gray-600"
+                        >Contract Machining</a
+                    >
+                    </li>
+                    <li>
+                    <a
+                        href="automotive-parts.html"
+                        class="block px-4 py-2 text-sm text-slate-100 hover:bg-gray-600"
+                        >Automotive</a
+                    >
+                    </li>
+                    <li>
+                    <a
+                        href="medical-equipment.html"
+                        class="block px-4 py-2 text-sm text-slate-100 hover:bg-gray-600"
+                        >Bioscience/Medical Equipment</a
+                    >
+                    </li>
+                    <li>
+                    <a
+                        href="electrical-equipment.html"
+                        class="block px-4 py-2 text-sm text-slate-100 hover:bg-gray-600"
+                        >Electrical</a
+                    >
+                    </li>
+                    <li>
+                    <a
+                        href="commerical-construction.html"
+                        class="block px-4 py-2 text-sm text-slate-100 hover:bg-gray-600"
+                        >Commerical Construction</a
+                    >
+                    </li>
+                    <li>
+                    <a
+                        href="food-industrial.html"
+                        class="block px-4 py-2 text-sm text-slate-100 hover:bg-gray-600"
+                        >Food and Beverage</a
+                    >
+                    </li>
+                    <li>
+                    <a
+                        href="aviation.html"
+                        class="block px-4 py-2 text-sm text-slate-100 hover:bg-gray-600"
+                        >Aviation</a
+                    >
+                    </li>
+                    <li>
+                    <a
+                        href="university-research.html"
+                        class="block px-4 py-2 text-sm text-slate-100 hover:bg-gray-600"
+                        >University Research Projects</a
+                    >
+                    </li>
+                    <li>
+                    <a
+                        href="3Dprinting.html"
+                        class="block px-4 py-2 text-sm text-slate-100 hover:bg-gray-600"
+                        >3D Printing</a
+                    >
+                    </li>
+                    <!-- More dropdown items -->
+                </ul>
+                </li>
+                <!-- More items -->
+                <li>
+                <a
+                    href="about.html"
+                    class="block text-sm px-2 py-4 text-slate-100 hover:bg-gray-600 font-semibold"
+                    >About</a
+                >
+                </li>
+                <li>
+                <a
+                    href="quote.html"
+                    class="block text-sm px-2 py-4 text-slate-100 hover:bg-gray-600 font-semibold"
+                    >Quote</a
+                >
+                </li>
+                <li>
+                <a
+                    href="contact.html"
+                    class="block text-sm px-2 py-4 text-slate-100 hover:bg-gray-600 font-semibold"
+                    >Contact</a
+                >
+                </li>
+            </ul>
+            </div>
+        </nav>
+        <!-- NAV END-->
+        
+        <!-- Carousel Container -->
+        <div class="carousel relative bg-white shadow-lg overflow-hidden w-full">
+            <!-- Carousel Inner -->
+            <div
+            class="carousel-inner relative flex w-auto transition-transform duration-500 ease-in-out"
+            >
+            <!-- Slides -->
+            <!-- Slide 1 -->
+            <div
+                class="carousel-item min-h-[600px] flex justify-center items-center w-full flex-shrink-0 relative"
+            >
+                <img
+                class="block w-full h-full object-cover absolute top-0 left-0"
+                src="img/tenochtitlan_2.jpg"
+                alt="Slide 1"
+                />
+                <div
+                class="z-10 flex flex-col justify-center items-center text-center text-cool-200 p-4"
+                >
+                <h2 class="text-4xl font-bold text-white mb-4">Historical Timeline & Significance</h2>
+                <p class="text-xl mb-4">
+                    Cool stuff
+                </p>
+                <a
+                    class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded"
+                    href="timeline.html"
+                    >View</a
+                >
+                </div>
+            </div>
+            <!-- Slide 2 -->
+            <div
+                class="carousel-item min-h-[600px] flex justify-center items-center w-full flex-shrink-0 relative"
+            >
+                <img
+                class="block w-full h-full object-cover absolute top-0 left-0"
+                src="img/Painting.png"
+                alt="Aztec Painting"
+                />
+                <div
+                class="z-10 flex flex-col justify-center items-center text-center text-white p-4"
+                >
+                <h2 class="text-4xl font-bold mb-4">Primary Source</h2>
+                <p class="text-xl mb-4">
+                    Cool stuff
+                </p>
+                <a
+                    class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded"
+                    href="Historical_Source.html"
+                    >Learn more</a
+                >
+                </div>
+            </div>
+            <!-- Slide 3 -->
+            <div
+                class="carousel-item min-h-[600px] flex justify-center items-center w-full flex-shrink-0 relative"
+            >
+                <img
+                class="block w-full h-full object-cover absolute top-0 left-0"
+                src="img/Tenochtitlan map.jpg"
+                alt=""
+                />
+                <div
+                class="z-10 flex flex-col justify-center items-center text-center text-white p-4"
+                >
+                <h2 class="text-4xl font-bold mb-4">
+                    ASK PARAGRAPH
+                </h2>
+                <a
+                    class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded"
+                    href="ASK_paragraph.html"
+                    >Learn more</a
+                >
+                </div>
+            </div>
+            </div>
+            <!-- Controls -->
+            <button
+            class="carousel-control-prev absolute top-0 bottom-0 left-0 p-3 cursor-pointer bg-transparent hover:bg-gray-200 text-gray-800 hover:text-gray-600"
+            >
+            &#10094;
+            </button>
+            <button
+            class="carousel-control-next absolute top-0 bottom-0 right-0 p-3 cursor-pointer bg-transparent hover:bg-gray-200 text-gray-800 hover:text-gray-600"
+            >
+            &#10095;
+            </button>
+        </div>
+        <!-- Carousel Container end-->
+
+        <!-- Add Image banner content start -->
+        <div class="relative bg-gray-800">
+        <div class="absolute inset-0">
+          <img
+            alt="Automotive background image"
+            class="w-full h-full object-cover"
+            height="1080"
+            src="img/tenochtitlan_3.jpg"
+            width="1920"
+          />
+          <div
+            aria-hidden="true"
+            class="absolute inset-0 bg-gray-800 mix-blend-multiply"
+          ></div>
+        </div>
+        <div
+          class="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8"
+        >
+          <h1
+            class="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl"
+          >
+            Introduction
+          </h1>
+          <p class="mt-6 text-xl text-gray-300 max-w-3xl">
+            Spanish-Aztec relations began in 1519 with Hernan Cortes’s landing in the Aztec Empire. The two sides first formally met in November 1519, with Moctezuma II welcoming Cortes. However, the seemingly friendly countries developed many rifts in their relationship, ending in severed relations and Hernan Cortes’s conquest of the Aztec Empire.
+
+            Initially, the Aztecs greeted the Spanish enthusiastically. However, Hernan Cortes wrote of his distrust of the native population. Soon after Cortes met with Moctezuma II, he imprisoned him inside his own palace. Later events only continued to deteriorate the Aztec-Spanish relationship, like the Massacre at the Great Temple. In the end, Hernan Cortes would defeat the Aztec Empire, resulting in mass deaths in the territories formerly held by the empire.
+            
+          </p>
+        </div>
+        </div>
+        <!-- Add image banner content end -->
+
+        <!-- Image and Text Start-->
+        <section class="text-black py-8">
+            <div class="container mx-auto px-4">
+              <div class="flex flex-wrap -mx-4">
+                <div class="w-full lg:w-1/2 px-4 mb-8 lg:mb-0 order-last lg:order-first">
+                  <img class="w-full h-auto" src="https://placehold.co/450x250" alt="">
+                </div>
+                <div class="w-full lg:w-1/2 px-4 mb-8 lg:mb-0 order-first lg:order-last">
+                  <h2 class="text-2xl font-bold mb-4">FEATURES</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda nesciunt veniam soluta quam, voluptatum reiciendis voluptate dolorum labore impedit sunt repellendus! Fuga libero molestiae pariatur quo natus dolores illo adipisci!</p>
+                  <div class="mt-8">
+                    <a class="bg-red-400 hover:bg-red-300 text-white font-bold py-2 px-4 rounded inline-block" href="#">Download</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+        <!-- Image and Text end -->
+
+        <script src="hum.js"></script>
+    </body>
+    </html>
